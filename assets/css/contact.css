@@ -1,0 +1,46 @@
+.contact{
+    padding-block-start: 40px;    
+    background-color: #ca4172;
+    height: 40vh;
+}
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100%;}
+
+.contact__texts h1{
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.contact__img{
+    /* border : 2px solid red; */
+    width: 60%;
+    margin-bottom: -5px;
+}
+@media screen and (min-width:980px){
+    .contact{
+        height: 30vh;
+    }
+    .contact__container{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact__img{
+        width: 18%;
+    }   
+    .contact__texts h1{
+        font-size: 2.8em;
+        font-weight: 300;
+    }
+    .cta__article.m{
+        width: 15%;
+        letter-spacing: 1.5px;
+        font-size: 22px;
+    }
+}

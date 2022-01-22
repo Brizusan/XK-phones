@@ -1,0 +1,49 @@
+.about{
+    padding-block: 50px;  
+}
+.about__content{
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about__content figure{
+    /* border : 2px solid yellow; */
+    width: 100%;
+}
+.about__content figure img{
+    width: 80%;    
+}
+.about__info{
+    text-align: center;
+    margin-inline: 40px;
+}
+.about__info h3{
+    font-size: 1.8em;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.about__info p{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    margin-block: 20px;
+}
+@media screen and (min-width:680px){
+    .about__container{
+      
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about__content figure{
+        width: 80%;
+    }
+    .about__info{
+        grid-row: 1/2;
+        width: 90%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('hero.css');
+@import url('main.css');
+@import url('about.css');
+@import url('products.css');
+@import url('contact.css');
+@import url('banner.css');
+@import url('footer.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: all .2s linear;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin: 0 auto;
+    max-inline-size: 1600px;
+}
+.cta{
+    background-color:#ca4172 ;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;  
+    box-sizing: border-box;
+}
+.cta:hover{
+    letter-spacing: 1px;
+}
+.cta.m{
+    background: none;
+    border: 1px solid #fff;
+    margin: 20px;
+}
+.cta__article{
+    background-color: #efefef;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #000;
+    margin: 20px;
+    box-shadow: 0px 3px 14px -8px rgba(0, 0, 0, 0.7);
+    font-size: 1em;
+    font-weight: 300;
+}
+.cta__article.m{
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 60%;
+}
+.cta__article:hover{
+    box-shadow: none;
+}
+.divider{
+    width: 80px;
+    height: 3px;
+    background-color: #ca4172; 
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.title{
+    /* border : 2px solid red; */
+    text-align: center;
+    font-size: 2.2em;
+}
+
+    
+
